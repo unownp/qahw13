@@ -6,6 +6,6 @@ import static com.codeborne.selenide.Selenide.$;
 
 public class LoginPage {
     public SelenideElement
-         loginInput=$("#wpName1"),
-            passInput=$("#wpPassword1");
+            loginInput = $("#wpName1"),
+            passInput = $("#wpPassword1");
 }

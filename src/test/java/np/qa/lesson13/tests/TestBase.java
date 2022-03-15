@@ -18,22 +18,23 @@ public class TestBase {
     static void beforeAll() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
         //Configuration.startMaximized = true;
-//        Configuration.holdBrowserOpen = true;
+        //Configuration.holdBrowserOpen = true;
 
 
-        Boolean remoteState= Boolean.parseBoolean(
+        Boolean remoteState = Boolean.parseBoolean(
                 System.getProperty("remoteState", "true"));
-        if (remoteState.equals(true)){
-        String user = System.getProperty("user");
-        String pass = System.getProperty("pass");
-        String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
-        Configuration.remote = "https://" + user + ":" + pass + "@" + remoteUrl;}
 
-//        Configuration.browser = System.getProperty("browser");
-//        Configuration.browserVersion = System.getProperty("browserVersion");
+        if (remoteState.equals(true)) {
+            String user = System.getProperty("user");
+            String pass = System.getProperty("pass");
+            String remoteUrl = System.getProperty("remoteUrl", "selenoid.autotests.cloud/wd/hub");
+            Configuration.remote = "https://" + user + ":" + pass + "@" + remoteUrl;
+            Configuration.browser = System.getProperty("browser");
+            Configuration.browserVersion = System.getProperty("browserVersion");
+        }
 
-       // Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        Configuration.baseUrl="https://ru.wikipedia.org";
+
+        Configuration.baseUrl = "https://ru.wikipedia.org";
         Configuration.browserSize = "1920x1080";
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
@@ -41,8 +42,9 @@ public class TestBase {
         Configuration.browserCapabilities = capabilities;
 
     }
+
     @BeforeEach
-    void openBaseUrl(){
+    void openBaseUrl() {
         open(baseUrl);
     }
 

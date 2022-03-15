@@ -1,7 +1,6 @@
 package np.qa.lesson13.tests;
 
 import com.codeborne.selenide.WebDriverRunner;
-import com.codeborne.selenide.selector.ByText;
 import np.qa.lesson13.pages.LoginPage;
 import np.qa.lesson13.pages.MainPage;
 import np.qa.lesson13.pages.components.LeftMenu;
@@ -11,9 +10,6 @@ import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selenide.open;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Tag("properties")
