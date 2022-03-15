@@ -5,6 +5,7 @@ import np.qa.lesson13.pages.LoginPage;
 import np.qa.lesson13.pages.MainPage;
 import np.qa.lesson13.pages.components.LeftMenu;
 import np.qa.lesson13.pages.components.Search;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -20,6 +21,7 @@ public class MainPageTests extends TestBase {
     LoginPage loginPage = new LoginPage();
 
     @Test
+    @DisplayName("Проверка переключения языка")
     public void changeLanguageTest() {
 
         leftMenu.englishButton.shouldHave(text("English"));
@@ -29,6 +31,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Проверка кнопок главной страницы")
     public void mainPageButtonTests() {
 
         mainPage.mainHeadDiscussButton.click();
@@ -39,6 +42,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Проверка поиска")
     public void searchTest() {
 
         search.inputSearch.setValue("Википедия");
@@ -46,6 +50,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Проверка заголовков")
     public void mainPageTest() {
 
         leftMenu.mainLogo.shouldBe(visible);
@@ -53,6 +58,7 @@ public class MainPageTests extends TestBase {
     }
 
     @Test
+    @DisplayName("Проверка страницы авторизации")
     public void loginTest() {
 
         mainPage.loginButton.click();
