@@ -4,12 +4,12 @@
 ## :pushpin: Содержание:
 
 - [Технологии и инструменты](#rocket-технологии-и-инструменты)
-- [Реализованные проверки](#scroll-Реализованные-проверки)
+- [Реализованные проверки](#-Реализованные-проверки)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
 - [Allure отчет](#classical_building-Allure-отчет)
-- [Отчет в Telegram](#robot-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#skier-Примеры-видео-о-прохождении-тестов)
+- [Отчет в Telegram](#-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео примеры прохождения тестов](#-Примеры-видео-о-прохождении-тестов)
 
 ## :rocket: Технологии и инструменты
 
@@ -85,7 +85,7 @@ test
 <img title="Allure Graphics" src="images/allure_graphics.png">
 </p>
 
-## :robot: <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_telegram.png">
@@ -93,7 +93,7 @@ test
 
 
 
-### :skier: <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
+### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
 
 <p align="center">
 <img title="Selenoid Video" src="images/video1.gif" width="250" height="153"  alt="video"> 
