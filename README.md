@@ -3,13 +3,13 @@
 
 ## :pushpin: Содержание:
 
-- [Технологии и инструменты](#earth_africa-технологии-и-инструменты)
-- [Реализованные проверки](#earth_africa-Реализованные-проверки)
+- [Технологии и инструменты](#rocket-технологии-и-инструменты)
+- [Реализованные проверки](#scroll-Реализованные-проверки)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
-- [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
-- [Allure отчет](#earth_africa-Allure-отчет)
-- [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
+- [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
+- [Allure отчет](#classical_building-Allure-отчет)
+- [Отчет в Telegram](#robot-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео примеры прохождения тестов](#skier-Примеры-видео-о-прохождении-тестов)
 
 ## :rocket: Технологии и инструменты
 
@@ -25,7 +25,7 @@
 <a href="https://www.jenkins.io/"><img src="images/Jenkins.svg" width="50" height="50"  alt="Jenkins"/></a>
 </p>
 
-## :scroll: Реализованные проверки
+## Реализованные проверки
 
 - ✓ Проверка поиска.
 - ✓ Проверка страницы авторизации.
@@ -39,7 +39,7 @@
 <a href="https://jenkins.autotests.cloud/job/qahw13/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
 </p>
 
-### Параметры сборки в Jenkins:
+### :earth africa: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 91.0) 
@@ -73,7 +73,7 @@ test
 <img title="Allure Overview Dashboard" src="images/allure_main.png">
 </p>
 
-### Тесты
+### :classical_building: Тесты
 
 <p align="center">
 <img title="Allure Tests" src="images/allure_tests.png">
@@ -85,7 +85,7 @@ test
 <img title="Allure Graphics" src="images/allure_graphics.png">
 </p>
 
-## <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## :robot: <img src="images/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/allure_telegram.png">
@@ -93,7 +93,7 @@ test
 
 
 
-### <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
+### :skier: <img src="images/Selenoid.svg" width="25" height="25"  alt="Allure"/></a> Примеры видео о прохождении тестов
 
 <p align="center">
 <img title="Selenoid Video" src="images/video1.gif" width="250" height="153"  alt="video"> 
