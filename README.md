@@ -4,10 +4,10 @@
 ## :pushpin: Содержание:
 
 - [Технологии и инструменты](#rocket-технологии-и-инструменты)
-- [Реализованные проверки](#-Реализованные-проверки)
+- [Реализованные проверки](#Реализованные-проверки)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
-- [Allure отчет](#-Тесты)
+- [Allure отчет](#-Allure-отчет)
 - [Отчет в Telegram](#-Уведомление-в-Telegram-при-помощи-бота)
 - [Видео примеры прохождения тестов](#-Примеры-видео-о-прохождении-тестов)
 
@@ -39,7 +39,7 @@
 <a href="https://jenkins.autotests.cloud/job/qahw13/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
 </p>
 
-### :earth africa: Параметры сборки в Jenkins:
+## :earth africa: Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 91.0) 
@@ -65,7 +65,7 @@ test
 -DbrowserVersion=${BROWSERVERSION}
 ```
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/qahw13/">Allure report</a>
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/qahw13/">Allure report</a> Allure отчет
 
 ### Основное окно
 
