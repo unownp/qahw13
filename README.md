@@ -65,7 +65,7 @@ test
 -DbrowserVersion=${BROWSERVERSION}
 ```
 
-## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/qahw13/">Allure report</a> Allure отчет
+## <img src="images/Allure_Report.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/qahw13/"></a> Allure отчет
 
 ### Основное окно
 
