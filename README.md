@@ -5,7 +5,7 @@
 
 - [Технологии и инструменты](#rocket-технологии-и-инструменты)
 - [Реализованные проверки](#Реализованные-проверки)
-- [Сборка в Jenkins](#earth_africa-Jenkins-job)
+- [Jenkins job](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#computer-Запуск-тестов-из-терминала)
 - [Allure отчет](#-Allure-отчет)
 - [Отчет в Telegram](#-Уведомление-в-Telegram-при-помощи-бота)
@@ -39,7 +39,7 @@
 <a href="https://jenkins.autotests.cloud/job/qahw13/"><img src="images/jenkins_job.png" alt="Jenkins"/></a>
 </p>
 
-## :earth africa: Параметры сборки в Jenkins:
+## Параметры сборки в Jenkins:
 
 - browser (браузер, по умолчанию chrome)
 - browserVersion (версия браузера, по умолчанию 91.0) 
