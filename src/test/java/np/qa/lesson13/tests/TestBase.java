@@ -7,19 +7,12 @@ import io.qameta.allure.selenide.AllureSelenide;
 import np.qa.lesson13.helpers.Attach;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
-import static com.codeborne.selenide.Configuration.baseUrl;
-import static com.codeborne.selenide.Selenide.open;
 
 public class TestBase {
     @BeforeAll
     static void beforeAll() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-        //Configuration.startMaximized = true;
-        //Configuration.holdBrowserOpen = true;
-
 
         Boolean remoteState = Boolean.parseBoolean(
                 System.getProperty("remoteState", "true"));
@@ -33,7 +26,6 @@ public class TestBase {
             Configuration.browserVersion = System.getProperty("browserVersion");
         }
 
-
         Configuration.baseUrl = "https://ru.wikipedia.org";
         Configuration.browserSize = "1920x1080";
         DesiredCapabilities capabilities = new DesiredCapabilities();
@@ -41,11 +33,6 @@ public class TestBase {
         capabilities.setCapability("enableVideo", true);
         Configuration.browserCapabilities = capabilities;
 
-    }
-
-    @BeforeEach
-    void openBaseUrl() {
-        open(baseUrl);
     }
 
     @AfterEach
@@ -56,6 +43,5 @@ public class TestBase {
         Attach.addVideo();
         Selenide.closeWebDriver();
     }
-
 
 }
