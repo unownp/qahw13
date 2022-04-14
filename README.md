@@ -1,4 +1,4 @@
-# Проект для домашки(для примера-Википедия)
+# Диплом(UI)
 <a target="_blank" href="https://ru.wikipedia.org/wiki/Заглавная_страница">Wikipedia</a>
 
 ## :pushpin: Содержание:
